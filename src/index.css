@@ -7,6 +7,17 @@
    All colors MUST be HSL.
 */
 
+/* When HERO is present AND navbar is transparent */
+body:has(#hero) header:not(.scrolled) nav a {
+  color: white;
+}
+
+/* Hover effect on hero */
+body:has(#hero) header:not(.scrolled) nav a:hover {
+  color: #60a5fa; /* blue-400 */
+}
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;

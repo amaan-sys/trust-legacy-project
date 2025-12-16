@@ -29,7 +29,7 @@ const HeroLight = () => {
       {/* Content Grid Layout */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-10 relative z-10 py-20 pt-24">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-          
+
           {/* Left Content */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -153,7 +153,7 @@ const HeroLight = () => {
                 alt="Investment properties"
                 className="w-full h-96 object-cover"
               />
-              
+
               {/* Overlay Gradient */}
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-40" />
 
@@ -168,8 +168,8 @@ const HeroLight = () => {
                     <TrendingUp className="w-5 h-5 text-slate-950" />
                   </div>
                   <div>
-                    <div className="text-white font-bold">$2.5B+</div>
-                    <div className="text-xs text-slate-400">Assets Managed</div>
+                    <div className="text-white font-bold">100%</div>
+                    <div className="text-xs text-slate-400">Client Satisfaction</div>
                   </div>
                 </div>
               </motion.div>
