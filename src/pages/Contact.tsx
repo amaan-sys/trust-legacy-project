@@ -355,7 +355,7 @@ const Contact = () => {
               },
               {
                 title: "Full Service",
-                description: "From acquisition to management, we handle it all",
+                description: "From acquisition to sales, we handle it all",
               },
             ].map((item, index) => (
               <motion.div
